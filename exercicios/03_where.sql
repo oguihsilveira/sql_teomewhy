@@ -1,0 +1,11 @@
+-- Selecione todos os clientes com mais de 500 pontos
+
+/* SELECT *
+FROM clientes
+
+WHERE QtdePontos > 500; */
+
+SELECT IdCliente, QtdePontos
+FROM clientes
+
+WHERE QtdePontos > 500
